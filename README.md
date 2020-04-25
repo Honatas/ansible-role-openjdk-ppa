@@ -1,6 +1,8 @@
 OpenJDK from PPA
 ================
 
+[![Travis](https://img.shields.io/travis/honatas/ansible-role-openjdk-ppa?style=plastic)](https://travis-ci.org/Honatas/ansible-role-openjdk-ppa "View the build status on Travis")
+
 Installs any version of OpenJDK from Matthias Klose's openjdk-r PPA repository
 
 Role Variables
