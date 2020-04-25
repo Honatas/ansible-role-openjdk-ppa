@@ -16,6 +16,9 @@ galaxy_info:
   galaxy_tags:
     - java
     - openjdk
+    - jdk
+    - jre
+    - jvm
     - ppa
 
 dependencies: []

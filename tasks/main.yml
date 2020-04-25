@@ -7,5 +7,5 @@
 - name: Install OpenJDK
   become: yes
   apt:
-    name: "openjdk-{{openjdk_version}}-{{item}}"
-  with_items: "{{openjdk_types}}"
+    name: "openjdk-{{ openjdk_version }}-{{ item }}"
+  with_items: "{{ openjdk_types }}"
