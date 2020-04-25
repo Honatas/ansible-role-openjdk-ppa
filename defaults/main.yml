@@ -1,0 +1,4 @@
+---
+openjdk_version: 14
+openjdk_types:
+  - jdk-headless

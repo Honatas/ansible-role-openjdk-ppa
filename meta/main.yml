@@ -1,0 +1,21 @@
+galaxy_info:
+  role_name: openjdk-ppa
+  author: Jonatas de Moraes Junior
+  description: Installs any version of OpenJDK from Matthias Klose's openjdk-r PPA repository
+  license: MIT
+  min_ansible_version: 2.9
+
+  platforms:
+    - name: Debian
+      versions:
+        - all
+    - name: Ubuntu
+      versions:
+        - all
+
+  galaxy_tags:
+    - java
+    - openjdk
+    - ppa
+
+dependencies: []
