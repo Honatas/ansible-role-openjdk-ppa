@@ -17,19 +17,19 @@ Examples
 The default installs openjdk-14-jdk-headless:
 ```yaml
 roles:
-  - openjdk-ppa
+  - honatas.openjdk_ppa
 ```
 
 If you want to install Java 8 (openjdk-8-jdk-headless):
 ```yaml
 roles:
-  - { role: openjdk-ppa, openjdk_version: 8 }
+  - { role: honatas.openjdk_ppa, openjdk_version: 8 }
 ```
 
 If you want a full Java 11 development environment (this will install openjdk-11-jdk, openjdk-11-doc, openjdk-11-source, openjdk-11-demo)
 ```yaml
 roles:
-  - role: openjdk
+  - role: honatas.openjdk_ppa
     openjdk_version: 11
     openjdk_types:
       - jdk
