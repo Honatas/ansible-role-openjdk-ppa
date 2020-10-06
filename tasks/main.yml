@@ -1,11 +1,13 @@
 ---
 - name: Add PPA
-  become: yes
   apt_repository:
     repo: ppa:openjdk-r/ppa
 
-- name: Install OpenJDK
-  become: yes
-  apt:
-    name: "openjdk-{{ openjdk_version }}-{{ item }}"
+- name: Build list of items to install
+  set_fact:
+    java_install_items: "{{ java_install_items }} +  ['openjdk-{{ openjdk_version }}-{{ item }}']"
   with_items: "{{ openjdk_types }}"
+
+- name: Install OpenJDK
+  apt:
+    name: "{{ java_install_items }}"
