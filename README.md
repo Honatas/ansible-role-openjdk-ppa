@@ -4,18 +4,18 @@ OpenJDK from PPA
 [![Travis](https://img.shields.io/travis/honatas/ansible-role-openjdk-ppa?style=plastic)](https://travis-ci.org/Honatas/ansible-role-openjdk-ppa "View the build status on Travis")
 [![coffee](https://img.shields.io/badge/buy%20me%20a-coffee-orange?style=plastic)](https://ko-fi.com/honatas "Buy me a coffee")  
 
-Installs any version of OpenJDK from Matthias Klose's openjdk-r PPA repository
+Installs any version of OpenJDK from Matthias Klose's [openjdk-r PPA repository](https://launchpad.net/~openjdk-r/+archive/ubuntu/ppa)  
 
 Role Variables
 --------------
 
-**openjdk_version** - The version of the jdk (default: 14)  
+**openjdk_version** - The version of the jdk (default: 15)  
 **openjdk_types** - A list of different installs (default: - jdk-headless)
 
 Examples
 --------
 
-The default installs openjdk-14-jdk-headless:
+The default installs openjdk-15-jdk-headless:
 ```yaml
 roles:
   - honatas.openjdk_ppa
