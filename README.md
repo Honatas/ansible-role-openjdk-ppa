@@ -2,6 +2,7 @@ OpenJDK from PPA
 ================
 
 [![Travis](https://img.shields.io/travis/honatas/ansible-role-openjdk-ppa?style=plastic)](https://travis-ci.org/Honatas/ansible-role-openjdk-ppa "View the build status on Travis")
+[![coffee](https://img.shields.io/badge/buy%20me%20a-coffee-orange?style=plastic)](https://ko-fi.com/honatas "Buy me a coffee")  
 
 Installs any version of OpenJDK from Matthias Klose's openjdk-r PPA repository
 
