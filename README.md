@@ -1,8 +1,10 @@
 OpenJDK from PPA
 ================
 
+[![GitHub](https://img.shields.io/github/license/honatas/ansible-role-openjdk-ppa?style=plastic)](https://github.com/Honatas/ansible-role-openjdk-ppa/blob/master/LICENSE)
 [![Travis](https://img.shields.io/travis/honatas/ansible-role-openjdk-ppa?style=plastic)](https://travis-ci.org/Honatas/ansible-role-openjdk-ppa "View the build status on Travis")
-[![coffee](https://img.shields.io/badge/buy%20me%20a-coffee-orange?style=plastic)](https://ko-fi.com/honatas "Buy me a coffee")  
+[![Ansible Quality Score](https://img.shields.io/ansible/quality/48203?style=plastic)](https://galaxy.ansible.com/honatas/openjdk_ppa)
+[![coffee](https://img.shields.io/badge/buy%20me%20a-coffee-brown?style=plastic)](https://ko-fi.com/honatas "Buy me a coffee")  
 
 Installs any version of OpenJDK from Matthias Klose's [openjdk-r PPA repository](https://launchpad.net/~openjdk-r/+archive/ubuntu/ppa)  
 
@@ -54,3 +56,11 @@ License
 -------
 
 MIT
+
+
+Contributions
+-------------
+
+Feel free to open an issue or add a pull request. Anytime. Really, I mean it.  
+
+Also, if you like my work, I'll let you know that I love [coffee](https://ko-fi.com/honatas).  
